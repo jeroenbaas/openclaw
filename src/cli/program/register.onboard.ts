@@ -185,7 +185,6 @@ export function registerOnboardCommand(program: Command) {
           },
           defaultRuntime,
         );
-        defaultRuntime.exit(0);
       });
     });
 }
